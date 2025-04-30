@@ -1,0 +1,21 @@
+@import "tailwindcss";
+/* Global Resets and Layout Fixes */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: system-ui, sans-serif;
+  color: #111827; /* Tailwind gray-900 */
+}
+
+/* Optional: Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Utility overrides or custom styles */
+a {
+  text-decoration: none;
+}
