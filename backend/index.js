@@ -6,10 +6,7 @@ require("dotenv").config();
 const app = express();
 app.use(express.json());
 
-app.use(cors({
-  origin: "https://up-waste-mwj8.vercel.app/",
-  credentials: true,
-}));
+app.use(cors());
 
 app.use(morgan("dev"));
 
