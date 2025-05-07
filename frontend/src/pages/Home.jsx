@@ -63,7 +63,7 @@ import { Link } from "react-router-dom";
 import { Leaf, ArrowRight, Recycle } from "lucide-react";
 import { motion } from "framer-motion";
 import CountUp from "react-countup";
-import cmlogo from 'frontend/public/think-green.png';
+
 
 // Scroll reveal animation variants
 const reveal = {
@@ -190,11 +190,11 @@ const Home = () => {
             className="bg-white p-6 rounded-xl shadow hover:shadow-md transition"
             whileHover={{ scale: 1.03 }}
           >
-            <img
+{/*             <img
               src={cmlogo}
               alt="community"
               className="w-10 mx-auto mb-4"
-            />
+            /> */}
             <h3 className="font-semibold text-lg mb-2">Empowered Communities</h3>
             <p className="text-gray-600 text-sm">
               Connecting waste generators with recyclers creates economic opportunities and community impact.
