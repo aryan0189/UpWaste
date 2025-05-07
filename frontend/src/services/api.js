@@ -10,7 +10,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://up-waste-3clg.vercel.app/",
+  baseURL: "https://upwaste.onrender.com",
   withCredentials: true,
 });
 
