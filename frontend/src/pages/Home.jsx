@@ -63,7 +63,7 @@ import { Link } from "react-router-dom";
 import { Leaf, ArrowRight, Recycle } from "lucide-react";
 import { motion } from "framer-motion";
 import CountUp from "react-countup";
-import cmlogo from '/Users/aryanagrawal/VI_SEM/project/upwaste/frontend/public/think-green.png';
+import cmlogo from 'frontend/public/think-green.png';
 
 // Scroll reveal animation variants
 const reveal = {
